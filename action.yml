@@ -1,0 +1,22 @@
+---
+author: Cyber and Infrastructure Security Agency
+branding:
+  color: blue
+  icon: shield-off
+description: Disables AppArmor on the GitHub Actions runner.
+name: Disable AppArmor
+
+runs:
+  using: composite
+  steps:
+    - name: Unload all AppArmor profiles
+      # The || true is currently necessary because of a bug in
+      # aa-teardown.  See
+      # https://bugs.launchpad.net/ubuntu/+source/apparmor/+bug/2093797
+      # for more details.
+      run: sudo aa-teardown || true
+      shell: bash
+
+    - name: Disable and stop AppArmor systemd service
+      run: sudo systemctl disable --now apparmor.service
+      shell: bash
