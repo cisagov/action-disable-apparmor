@@ -3,7 +3,8 @@
 [![GitHub Build Status](https://github.com/cisagov/skeleton-action-composite/workflows/build/badge.svg)](https://github.com/cisagov/skeleton-action-composite/actions)
 
 This is a generic skeleton project that can be used to quickly get a
-new [cisagov](https://github.com/cisagov) GitHub composite Action
+new [cisagov](https://github.com/cisagov) [GitHub composite
+Action](https://docs.github.com/en/actions/sharing-automations/creating-actions/about-custom-actions#composite-actions)
 project started.  This skeleton project contains [licensing
 information](LICENSE), as well as [pre-commit
 hooks](https://pre-commit.com) and [GitHub
