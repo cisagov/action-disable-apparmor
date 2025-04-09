@@ -44,7 +44,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Disable AppArmor on the GitHub runner
-        uses: cisagov/action-disable-apparmor@v1
+        uses: cisagov/action-disable-apparmor@437d94f26a2e4bf8c03acfb500a6afc688b497db # v1.0.0
 ```
 
 ## Contributing ##
