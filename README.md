@@ -1,6 +1,8 @@
 # action-disable-apparmor #
 
 [![GitHub Build Status](https://github.com/cisagov/action-disable-apparmor/workflows/build/badge.svg)](https://github.com/cisagov/action-disable-apparmor/actions)
+[![License](https://img.shields.io/github/license/cisagov/action-disable-apparmor)](https://spdx.org/licenses/)
+[![CodeQL](https://github.com/cisagov/action-disable-apparmor/workflows/CodeQL/badge.svg)](https://github.com/cisagov/action-disable-apparmor/actions/workflows/codeql-analysis.yml)
 
 A GitHub Action to disable AppArmor on the GitHub runner.
 
